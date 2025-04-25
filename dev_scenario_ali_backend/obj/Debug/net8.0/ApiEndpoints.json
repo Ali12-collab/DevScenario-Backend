@@ -1,0 +1,239 @@
+[
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.ApplicationController",
+    "Method": "GetAllApps",
+    "RelativePath": "api/Application",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.ApplicationController",
+    "Method": "PostApplication",
+    "RelativePath": "api/Application",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "application",
+        "Type": "dev_scenario_ali_backend.Models.Application",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.ApplicationController",
+    "Method": "GetApplication",
+    "RelativePath": "api/Application/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.ApplicationController",
+    "Method": "UpdateApplication",
+    "RelativePath": "api/Application/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "application",
+        "Type": "dev_scenario_ali_backend.Models.Application",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.ApplicationController",
+    "Method": "DeleteApplication",
+    "RelativePath": "api/Application/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.InquryController",
+    "Method": "GetAllInquiries",
+    "RelativePath": "api/Inquries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.InquryController",
+    "Method": "PostInquiry",
+    "RelativePath": "api/Inquries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inquiry",
+        "Type": "dev_scenario_ali_backend.Models.Inquries",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.InquryController",
+    "Method": "GetInquiry",
+    "RelativePath": "api/Inquries/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.InquryController",
+    "Method": "UpdateInquiry",
+    "RelativePath": "api/Inquries/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedInquiry",
+        "Type": "dev_scenario_ali_backend.Models.Inquries",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.InquryController",
+    "Method": "DeleteInquiry",
+    "RelativePath": "api/Inquries/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.StatusLevelController",
+    "Method": "GetAllLevels",
+    "RelativePath": "api/StatusLevel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.StatusLevelController",
+    "Method": "PostStatusLevel",
+    "RelativePath": "api/StatusLevel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "level",
+        "Type": "dev_scenario_ali_backend.Models.StatusLevel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.StatusLevelController",
+    "Method": "GetStatusLevel",
+    "RelativePath": "api/StatusLevel/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.StatusLevelController",
+    "Method": "UpdateStatusLevel",
+    "RelativePath": "api/StatusLevel/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedLevel",
+        "Type": "dev_scenario_ali_backend.Models.StatusLevel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "dev_scenario_ali_backend.Controllers.StatusLevelController",
+    "Method": "DeleteStatusLevel",
+    "RelativePath": "api/StatusLevel/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

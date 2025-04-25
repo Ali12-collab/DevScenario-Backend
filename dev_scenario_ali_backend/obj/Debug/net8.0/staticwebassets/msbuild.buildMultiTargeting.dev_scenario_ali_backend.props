@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\dev_scenario_ali_backend.props" />
+</Project>
